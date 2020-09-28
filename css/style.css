@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* cor textos */
+    --gray-1: #333333;
+    --gray-2: #4f4f4f;
+
+
+    --white-1: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Mono", monospace;
+    background-color: var(--white-1);
+    padding: 1rem;
+}
+
+.info-topo {
+    padding: 40px 77px;
+}
+
+.info-topo p {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: var(--gray-1);
+}
+
+.container {
+    /* max-width: 1080px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+    justify-content: space-around;
+
+}
+
+.section__imagem {
+    max-width: 30rem;
+}
+
+.section__descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo--descricao {
+    max-width: 36.625rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    margin-bottom: 36px;
+    /* Gray 1 */
+    color: var(--gray-1);
+}
+
+.texto--descricao {
+    max-width: 381px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    margin-bottom: 64px;
+    /* Gray 2 */
+    color: var(--gray-2);
+}
+
+.botao--descricao {
+    max-width: 216px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 21px;
+
+    padding: 24px 43px;
+
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: var(--gray-1);
+    transition: background 0.5s;
+}
+
+.botao--descricao:hover {
+    background: var(--gray-2);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 17px;
+
+    /* identical to box height */
+    color: var(--gray-1);
+}
