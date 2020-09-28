@@ -26,11 +26,10 @@ img {
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    padding: 16px;
     font-family: "Space Mono", monospace;
     background-color: var(--white-1);
-    padding: 1rem;
+
 }
 
 .info-topo {
@@ -41,7 +40,7 @@ body {
     font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 25px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
@@ -54,15 +53,21 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
-
-    gap: 50px;
     justify-content: space-around;
 
 }
 
 .section__imagem {
     max-width: 30rem;
+    position: relative;
+    animation: animarpersonagem 3s;
+    animation-iteration-count: infinite;
 }
+@keyframes animarpersonagem {
+    0% {top: 0px;}
+    50% {top: -10%;}
+    100% {top: 0px;}
+  }
 
 .section__descricao {
     display: flex;
@@ -70,7 +75,7 @@ body {
 }
 
 .titulo--descricao {
-    max-width: 36.625rem;
+    max-width: 586px;
     font-style: normal;
     font-weight: bold;
     font-size: 4rem;
@@ -120,7 +125,8 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 100px;
+    padding: 20px 0;
 }
 
 footer a {
@@ -131,4 +137,17 @@ footer a {
 
     /* identical to box height */
     color: var(--gray-1);
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .info-topo {
+        padding: 20px 24px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 }
