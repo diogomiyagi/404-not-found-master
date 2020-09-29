@@ -63,3 +63,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - Website [instagram](https://{instagram.com/miaguyzando})
 - GitHub [@diogomiaguy](https://{github.com/diogomiaguy})
 - Twitter [@miaguyzando](https://{twitter.com/miaguyzando})
+- Twitch.tv [@diogo_miaguy](https://www.twitch.tv/diogo_miaguy)
