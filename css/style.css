@@ -8,11 +8,11 @@
 
 :root {
     /* cor textos */
-    --gray-1: #333333;
-    --gray-2: #4f4f4f;
+    -gray-1: #333333;
+    -gray-2: #4f4f4f;
 
 
-    --white-1: #ffffff;
+    -white-1: #ffffff;
 }
 
 a {
@@ -74,7 +74,7 @@ body {
     flex-direction: column;
 }
 
-.titulo--descricao {
+.titulo-descricao {
     max-width: 586px;
     font-style: normal;
     font-weight: bold;
@@ -87,7 +87,7 @@ body {
     color: var(--gray-1);
 }
 
-.texto--descricao {
+.texto-descricao {
     max-width: 381px;
     font-style: normal;
     font-weight: normal;
@@ -100,7 +100,7 @@ body {
     color: var(--gray-2);
 }
 
-.botao--descricao {
+.botao-descricao {
     max-width: 216px;
     font-style: normal;
     font-weight: bold;
@@ -118,7 +118,7 @@ body {
     transition: background 0.5s;
 }
 
-.botao--descricao:hover {
+.botao-descricao:hover {
     background: var(--gray-2);
 }
 
