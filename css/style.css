@@ -8,11 +8,10 @@
 
 :root {
     /* cor textos */
-    -gray-1: #333333;
-    -gray-2: #4f4f4f;
+    --gray-1: #333333;
+    --gray-2: #4f4f4f;
 
-
-    -white-1: #ffffff;
+    --white-1: #ffffff;
 }
 
 a {
@@ -29,14 +28,13 @@ body {
     padding: 16px;
     font-family: "Space Mono", monospace;
     background-color: var(--white-1);
-
 }
 
-.info-topo {
+.top-info {
     padding: 40px 77px;
 }
 
-.info-topo p {
+.top-info p {
     font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
@@ -54,27 +52,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
-.section__imagem {
+.section__image {
     max-width: 30rem;
     position: relative;
     animation: animarpersonagem 3s;
     animation-iteration-count: infinite;
 }
+
 @keyframes animarpersonagem {
     0% {top: 0px;}
     50% {top: -10%;}
     100% {top: 0px;}
-  }
+}
 
-.section__descricao {
+.section__description {
     display: flex;
     flex-direction: column;
 }
 
-.titulo-descricao {
+.titulo-description {
     max-width: 586px;
     font-style: normal;
     font-weight: bold;
@@ -87,7 +85,7 @@ body {
     color: var(--gray-1);
 }
 
-.texto-descricao {
+.texto-description {
     max-width: 381px;
     font-style: normal;
     font-weight: normal;
@@ -100,7 +98,7 @@ body {
     color: var(--gray-2);
 }
 
-.botao-descricao {
+.botao-description {
     max-width: 216px;
     font-style: normal;
     font-weight: bold;
@@ -118,7 +116,7 @@ body {
     transition: background 0.5s;
 }
 
-.botao-descricao:hover {
+.botao-description:hover {
     background: var(--gray-2);
 }
 
@@ -142,7 +140,7 @@ footer a {
 
 @media screen and (max-width: 800px) {
 
-    .info-topo {
+    .top-info {
         padding: 20px 24px;
     }
 
